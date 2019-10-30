@@ -1,7 +1,7 @@
 /* GET homepage */
-const index = (req, res) => {
+const about = (req, res) => {
     res.render('index', {
-        title: 'Express'
+        title: 'About'
     });
 };
 
@@ -14,5 +14,5 @@ const index = (req, res) => {
 
 
 module.exports = {
-    index
+    about
 };

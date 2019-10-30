@@ -9,10 +9,50 @@ html
   body
 
 
+    nav.navbar.fixed-top.navbar-expand-md.navbar-light
+      .container
+        a.navbar-brand(href='/') Loc8r
+        button.navbar-toggler(type='button', data-toggle='collapse',data-target='#navbarMain')
+          span.navbar-toggler-icon
+        #navbarMain.navbar-collapse.collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item
+              a.nav-link(href='/about/') About
 
 
 
-    block content
+
+    .container
+      block content
+      
+
+
+
+      footer
+        .row
+          .col-12
+            small &copy; Getting Mean - Simon Holmes/Clive Harber 2018
+    
+    //- nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    //- a.navbar-brand(href='#') Navbar
+    //- button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+    //-   span.navbar-toggler-icon
+    //- #navbarNav.collapse.navbar-collapse
+    //-   ul.navbar-nav
+    //-     li.nav-item.active
+    //-       a.nav-link(href='#')
+    //-         | Home 
+    //-         span.sr-only (current)
+    //-     li.nav-item
+    //-       a.nav-link(href='#') Features
+    //-     li.nav-item
+    //-       a.nav-link(href='#') Pricing
+    //-     li.nav-item
+    //-       a.nav-link.disabled(href='#') Disabled
+
+
+
+    
 
 
 
